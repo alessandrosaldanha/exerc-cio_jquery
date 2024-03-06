@@ -1,0 +1,88 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body {
+        background: url(img.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    h1{
+        padding: 3rem;
+    }
+    
+    form {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    
+    input {
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 0 10px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #555;
+    }
+    
+    button {
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 0 10px;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: rgb(5, 38, 107);
+        color: #fff;  
+    }
+    
+    button:hover {
+        cursor: pointer;
+        background-color: rgb(66, 114, 216);
+        color: #fff;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 3rem;
+    }
+    
+    ul li:hover {
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    ul li.has-marker {
+        list-style-type: disc;
+        background:rgb(66, 114, 216);
+        color: #fff;
+        height: 40px;
+        border-radius: 50px;
+        margin: 10px 0;
+        padding: 10px;
+        overflow: hidden;
+    }
+    
+    .strike-through{
+        text-decoration: line-through;
+    }
+    
